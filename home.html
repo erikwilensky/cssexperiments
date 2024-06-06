@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            height: 100%;
+            background-image: linear-gradient(to bottom, rgb(0, 106, 255), rgb(195, 215, 215));
+        }
+        body {
+            
+            height: auto; /* Ensure the body covers the full viewport height */
+            margin: 0; /* Remove default margin */
+            min-height: 100%;
+            
+
+        }
+        .menubox{
+            background-color: rgb(50, 195, 195);
+            display: flex; /* Use flex to align children */
+            justify-content: center; /* Center the children horizontally */
+        }
+        ul{
+            
+            list-style: none;
+            padding: 0; /* Remove default padding */
+            margin: 0; /* Remove default margin */
+            display: flex; /* Make the <ul> a flex container */
+                font-weight: bold; /* Make text bold */
+            font-size: 1.2em; /* Make text larger */
+            
+            
+
+        }
+        ul li{
+            margin: 10px;;
+        }
+        ul li a{
+            
+            color: aliceblue;
+        }
+        h2{
+            text-align: center;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        tr td {
+  text-align: center;
+  vertical-align: middle;
+}
+.center{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="menubox">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <br>
+    <h2>Welcome to my Portfolio!</h2>
+    <br>
+    <br>
+    <p>This is a website I have created to showcase my skills for website developemnt using HTML for the structure and CSS for the style.</p>
+    <hr>
+    <br>
+    <h2>Here are some of my Skills</h2>
+   <table>
+    <tr>
+        <td>
+            <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="">
+
+        </td>
+        <td>With my HTML skills I can add elements to my website for a better experience</td>
+        
+    </tr>
+    <tr>
+        <td><p>With my CSS skills I can edit a website to make it eye catching.</p></td>
+        <td><img src="https://cdn.create.vista.com/api/media/small/183537784/stock-photo-bangkok" alt=""></td>
+    </tr>
+   </table>
+   <hr style="color: bisque;">
+   <h2>Contact Information</h2>
+   <br>
+   <p class="center">Email name@name.com</p>
+   <p class="center">Phone (123) 4567 - 8910</p>
+</body>
+</html>
